@@ -7,8 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Count.h"
 
 @interface ViewController : UIViewController
+{
+    Count * countor;
+}
+@property (weak, nonatomic) IBOutlet UITextField *show;
+- (IBAction)push:(UIButton *)sender;
 
 
 @end
